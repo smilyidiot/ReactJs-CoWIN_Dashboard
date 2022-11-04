@@ -1,0 +1,58 @@
+/* Write your CSS here  */
+.CowinDashBoardContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 10%;
+  height: 100%;
+  background-size: cover;
+  background-color: #161625;
+}
+
+.CowinDashBoardHeading {
+  color: #cbd5e1;
+  font-size: 16px;
+}
+
+.LoaderContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.RowWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.WebsiteLogo {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+.WebsiteName {
+  color: #2cc6c6;
+  font-size: 16px;
+}
+
+.FailureContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.FailureImage {
+  width: 40%;
+  height: 20%;
+}
+
+.FailureHeading {
+  color: #ffffff;
+  font-size: 25px;
+}
